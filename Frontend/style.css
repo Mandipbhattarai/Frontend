@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     color: white;
+    position: absolute;
 }
 
 /* Outer Container */
@@ -22,6 +23,10 @@ body{
     left: 0;
     background-color: #111; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
     padding-top: 20px; /* Optional: Add some padding for better aesthetics */
 }
 
