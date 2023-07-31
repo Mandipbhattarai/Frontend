@@ -2,15 +2,12 @@ body{
     margin: 0;
     padding: 0;
     color: white;
+    position: absolute;
 }
 
 /* Outer Container */
 .outermost_container {
     display: flex;
-    position: fixed;
-    height: 100%;
-    top: 0; 
-    left: 0;
 }
 
 /* Navbar Styles */
@@ -19,6 +16,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
     padding-top: 20px; /* Optional: Add some padding for better aesthetics */
 }
 
