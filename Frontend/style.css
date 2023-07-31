@@ -7,18 +7,21 @@ body{
 /* Outer Container */
 .outermost_container {
     display: flex;
-    position: fixed;
-    height: 100%;
-    top: 0; 
-    left: 0;
 }
-
 /* Navbar Styles */
 .navbar {
     background-color: #2e2d2e;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: fixed !important;
+    height: 100%; 
+    width: 300px; 
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px; /* Optional: Add some padding for better aesthetics */
 }
 
@@ -107,8 +110,8 @@ body{
 /* Additional styles for beautiful design on the right side */
 .container_right_side_of_page {
     /* Add your container styles here */
-    margin-left: 20%; /* Set the margin to create space for the fixed navbar */
-    padding: 20px; /* Optional: Add padding for content */
+    margin-left: 300px;
+    padding: 0px 10px;
 }
 
 /* Additional styles for responsive design */
